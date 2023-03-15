@@ -54,6 +54,12 @@ body {
     margin-right: 0;
     width: 100%;
     clear: both;
+    background-color: $inner-wrap-bg;
+    padding: 1em;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(76,76,76,0.3);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(76,76,76,0.3);
+    box-shadow: 5px 5px 10px 0px rgba(76,76,76,0.3);
 
     .page__content,
     .page__meta,
@@ -83,8 +89,16 @@ body {
 }
 
 .page__lead {
-  font-family: $global-font-family;
+  font-family: $header-font-family;
   font-size: $type-size-4;
+  text-transform: uppercase;
+}
+
+.homepage-p {
+  margin: 0 auto;
+  color: #fff;
+  max-width: 650px;
+  text-align: justify;
 }
 
 .page__content {
@@ -131,7 +145,7 @@ body {
 
   a:not(.btn) {
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -186,9 +200,10 @@ body {
   animation-delay: 0.25s;
 
   &--overlay {
+    height: 600px;
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 4em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,6 +212,7 @@ body {
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+    text-align: center;
 
     a {
       color: #fff;
@@ -219,9 +235,9 @@ body {
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
-    .page__lead {
+    /*.page__lead {
       max-width: $medium;
-    }
+    }*/
 
     .page__title {
       font-size: $type-size-2;

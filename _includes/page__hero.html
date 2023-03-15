@@ -45,6 +45,15 @@
           <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
       {% endif %}
+      {% if page.layout == "home" %}
+      <div class="homepage-p">
+      <p>Motorcycling is the same as transcending. It is a karmic axe that splits your mind wide open and lets everything out. 
+        The good wraps you warmly, the bad just streams onto the tarmac underneath your wheels, never to be met again.</p>
+      <p>While riding, the mind is utterly focused on the present. There is no past, no future, no worries, no pain, no woes, no hopes, no plans, no disappointments.
+      It is in these moments that we find happiness.</p>
+      <p><strong>Motorcycling is happiness</strong>.</p>
+      </div>
+      {% endif %}
     </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">

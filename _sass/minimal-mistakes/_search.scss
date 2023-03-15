@@ -15,14 +15,17 @@
   border: 0;
   outline: none;
   color: $primary-color;
-  background-color: transparent;
+  /*background-color: transparent;*/
+  background: -webkit-linear-gradient(-45deg, rgba(3,251,14,1) 30%, rgba(254,1,214,1) 50%, rgba(61,207,254,1) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 
-  &:hover {
+  /*&:hover {
     color: mix(#000, $primary-color, 25%);
-  }
+  }*/
 }
 
 .search-icon {

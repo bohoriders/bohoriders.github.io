@@ -177,7 +177,6 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
 
   a {
     display: block;
@@ -187,9 +186,9 @@
     -webkit-transition: none;
     transition: none;
 
-    &:hover {
+    /*&:hover {
       color: $masthead-link-color-hover;
-    }
+    }*/
 
     &.site-logo {
       margin-left: 0;
@@ -243,7 +242,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $primary-color;
+        background: -webkit-linear-gradient(-45deg, rgba(3,251,14,1) 13%, rgba(254,1,214,1) 50%, rgba(61,207,254,1) 87%);;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

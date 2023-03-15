@@ -31,6 +31,7 @@ h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -126,6 +127,24 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
+  background:
+    linear-gradient(
+      -45deg,
+      $link-color,
+      $link-color
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(3,251,14,1) 13%,
+      rgba(254,1,214,1) 50%,
+      rgba(61,207,254,1) 87%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
   &:focus {
     @extend %tab-focus;
   }
@@ -136,7 +155,7 @@ a {
 
   &:hover {
     color: $link-color-hover;
-    outline: 0;
+    background-size: 0 3px, 100% 3px;
   }
 }
 
@@ -248,6 +267,7 @@ figcaption {
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
+  font-style: italic;
 
   a {
     -webkit-transition: $global-transition;
