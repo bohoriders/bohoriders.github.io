@@ -21,6 +21,18 @@ body {
   }
 }
 
+/*Background pattern*/
+
+.pattern {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e6ffe7;
+  opacity: 0.3;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e6ffe7 21px ), repeating-linear-gradient( #b3feb755, #b3feb7 );
+  z-index: -20;
+}
+
 h1,
 h2,
 h3,
@@ -128,22 +140,6 @@ blockquote {
 
 a {
   text-decoration: none;
-  background:
-    linear-gradient(
-      -45deg,
-      $link-color,
-      $link-color
-    ),
-    linear-gradient(
-      -45deg,
-      rgba(3,251,14,1) 13%,
-      rgba(254,1,214,1) 50%,
-      rgba(61,207,254,1) 87%
-  );
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
 
   &:focus {
     @extend %tab-focus;
@@ -155,7 +151,6 @@ a {
 
   &:hover {
     color: $link-color-hover;
-    background-size: 0 3px, 100% 3px;
   }
 }
 

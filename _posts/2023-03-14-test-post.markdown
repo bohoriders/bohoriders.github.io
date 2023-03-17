@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Test Post"
+excerpt: "This is yet another excerpt."
 header:
   teaser: /assets/images/home-header.jpg
 date:   2023-03-14 13:54:23 +0200

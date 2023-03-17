@@ -92,6 +92,7 @@ body {
   font-family: $header-font-family;
   font-size: $type-size-4;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .homepage-p {
@@ -99,6 +100,8 @@ body {
   color: #fff;
   max-width: 650px;
   text-align: justify;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .page__content {
@@ -144,8 +147,26 @@ body {
   }
 
   a:not(.btn) {
+    background:
+    linear-gradient(
+      -45deg,
+      $link-color,
+      $link-color
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(3,251,14,1) 13%,
+      rgba(254,1,214,1) 50%,
+      rgba(61,207,254,1) 87%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
     &:hover {
       text-decoration: none;
+      background-size: 0 3px, 100% 3px;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -232,7 +253,7 @@ body {
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      /*text-shadow: 1px 1px 4px rgba(#000, 0.5);*/
     }
 
     /*.page__lead {
@@ -240,8 +261,12 @@ body {
     }*/
 
     .page__title {
+      width: fit-content;
+      margin: 0 auto 0 auto;
       font-size: $type-size-2;
-
+      background: -webkit-linear-gradient(-45deg, rgba(3,251,14,1) 13%, rgba(254,1,214,1) 50%, rgba(61,207,254,1) 87%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       @include breakpoint($small) {
         font-size: $type-size-1;
       }
@@ -360,12 +385,30 @@ body {
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
+  text-transform: capitalize;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
+  background:
+    linear-gradient(
+      -45deg,
+      $link-color,
+      $link-color
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(3,251,14,1) 13%,
+      rgba(254,1,214,1) 50%,
+      rgba(61,207,254,1) 87%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
+    background-size: 0 3px, 100% 3px;
   }
 }
 

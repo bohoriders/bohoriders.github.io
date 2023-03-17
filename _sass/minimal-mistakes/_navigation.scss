@@ -128,12 +128,29 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     color: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
+    background:
+    linear-gradient(
+      -45deg,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(3,251,14,1) 13%,
+      rgba(254,1,214,1) 50%,
+      rgba(61,207,254,1) 87%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      background-size: 0 3px, 100% 3px;;
     }
 
     &:first-child {
@@ -235,25 +252,26 @@
 
     a {
       position: relative;
+      background:
+    linear-gradient(
+      -45deg,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(3,251,14,1) 13%,
+      rgba(254,1,214,1) 50%,
+      rgba(61,207,254,1) 87%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 4px;
-        background: -webkit-linear-gradient(-45deg, rgba(3,251,14,1) 13%, rgba(254,1,214,1) 50%, rgba(61,207,254,1) 87%);;
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-        transform: scaleX(0) translate3d(0, 0, 0); // hide
-      }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
+      &:hover {
+        text-decoration: none;
+      background-size: 0 3px, 100% 3px;
       }
     }
   }

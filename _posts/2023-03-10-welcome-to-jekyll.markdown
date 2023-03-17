@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Welcome to Jekyll!"
+excerpt: "This is one excerpt."
 date:   2023-03-10 13:54:23 +0200
 categories: jekyll update
 ---
