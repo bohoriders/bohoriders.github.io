@@ -82,15 +82,32 @@
       color: $muted-text-color;
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
+      background:
+    linear-gradient(
+      -45deg,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(3,251,14,1) 13%,
+      rgba(254,1,214,1) 50%,
+      rgba(61,207,254,1) 87%
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 
       &:hover {
         color: $link-color-hover;
+        background-size: 0 3px, 100% 3px;
       }
 
       &.current,
       &.current.disabled {
         color: #fff;
-        background: $primary-color;
+        background: $link-color;
       }
 
       &.disabled {
@@ -150,7 +167,7 @@
   transition: background-size 400ms;
 
     &:hover {
-      background-size: 0 3px, 100% 3px;;
+      background-size: 0 3px, 100% 3px;
     }
 
     &:first-child {
