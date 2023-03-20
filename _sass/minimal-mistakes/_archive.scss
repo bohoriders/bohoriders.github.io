@@ -3,6 +3,12 @@
    ========================================================================== */
 
 .archive {
+  background-color: $inner-wrap-bg;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(76,76,76,0.3);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(76,76,76,0.3);
+  box-shadow: 5px 5px 10px 0px rgba(76,76,76,0.3);
   margin-top: 1em;
   margin-bottom: 2em;
 
