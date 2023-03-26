@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
+title:  "Test 6"
 excerpt: "This is one excerpt adfsd aergsidfhnerfhidal sdf ndmhsoiv ar guirhmsldfhalef I sdkfhsdlh o sdfiusnflwehfiwlv"
 date:   2023-03-17 13:54:23 +0200
-categories: jekyll update
+categories: trips
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/home-header.jpg" alt="">
 

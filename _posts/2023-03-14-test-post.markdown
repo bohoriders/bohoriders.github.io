@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "Test Post"
+title:  "Test 3"
 excerpt: "This is yet another excerpt."
 header:
   teaser: /assets/images/home-header.jpg
 date:   2023-03-14 13:54:23 +0200
-categories: jekyll test
+categories: trips
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/home-header.jpg" alt="">
 

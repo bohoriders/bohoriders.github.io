@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
+title:  "Test 5"
 excerpt: "This is one excerpt."
 date:   2023-03-16 13:54:23 +0200
-categories: jekyll update
+categories: trips
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/home-header.jpg" alt="">
 
