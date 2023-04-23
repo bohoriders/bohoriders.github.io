@@ -126,13 +126,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bohoriders/bohoriders.github.io"
+      # url: "https://github.com/bohoriders/bohoriders.github.io"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -143,8 +143,11 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
     - label: "Medium"
-      icon: "fa fa-fw fa-medium"
+      icon: "fa-brands fa-medium"
       url: "https://medium.com"
+    - label: "Happy Cow"
+      icon: "fa-solid fa-cow"
+      url: "https://www.happycow.net/members/profile/BohoRiders"
 
 
 # Reading Files
