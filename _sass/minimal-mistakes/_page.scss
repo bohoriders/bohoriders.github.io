@@ -71,6 +71,25 @@ body {
       width: 100%;
       clear: both;
     }
+
+    .drop_cap {
+      font-size: 5em;
+      font-weight: bold;
+      line-height: 0.65em;
+      margin-right: 7px;
+      float: left;
+    }
+
+    .first_word {
+      font-weight: bold;
+    }
+
+    p {
+      margin-bottom: 1.6em;
+      line-height: 1.6em;
+      font-weight: 300;
+    }
+  
   }
 }
 

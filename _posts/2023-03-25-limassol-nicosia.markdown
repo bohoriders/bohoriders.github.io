@@ -15,7 +15,7 @@ tags: cyprus
   <figcaption>A bend in the road somewhere in the Troodos mountains.</figcaption>
 </figure>
 
-Riding in Cyprus is not always easy. The winter has been really windy this last two years,and a scorching summer makes your skin melt inside your jacket. This early spring morning wasn't windy and, even if the clouds look utterly filled with rain, we decided to take it as a sign and take a day trip. Being rained on is part of life after all.
+<span class="drop_cap">R</span><span class="first_word">iding</span> in Cyprus is not always easy. The winter has been really windy this last two years,and a scorching summer makes your skin melt inside your jacket. This early spring morning wasn't windy and, even if the clouds look utterly filled with rain, we decided to take it as a sign and take a day trip. Being rained on is part of life after all.
 
 Riding under the leaden-hued sky is not at all bad. The breeze is uplifting and the scenery, less saturated in colour, takes on a whole different look. 
 

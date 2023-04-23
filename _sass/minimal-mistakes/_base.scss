@@ -6,6 +6,9 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  word-break: break-word;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 body {
@@ -14,23 +17,14 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+  text-rendering: optimizeLegibility;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
-}
-
-/*Background pattern*/
-
-.pattern {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-color: #e6ffe7;
-  opacity: 0.3;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e6ffe7 21px ), repeating-linear-gradient( #b3feb755, #b3feb7 );
-  z-index: -20;
 }
 
 h1,
