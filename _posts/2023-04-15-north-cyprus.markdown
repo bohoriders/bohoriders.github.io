@@ -9,6 +9,9 @@ date:   2023-04-15 11:54:23 +0200
 categories: [trips, short trip]
 tags: [cyprus, north cyprus]
 ---
+
+<span class="click-here">This part 2 of 2, if you haven't read part 1 click [here]({% post_url 2023-04-14-north-cyprus %})</span>
+
 <figure class="align-center">
   <a href="/assets/images/2023-04-15-north-cyprus/2023-04-15-north-cyprus-01.webp" title="Alone on the road to Apostolos Andreas." alt="A motorcycle and rider on a narrow road in North Cyprus.">
   <img src="/assets/images/2023-04-15-north-cyprus/2023-04-15-north-cyprus-01.webp" alt="A motorcycle and rider on a narrow road in North Cyprus."></a>
