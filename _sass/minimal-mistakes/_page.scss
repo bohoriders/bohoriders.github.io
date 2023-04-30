@@ -83,13 +83,6 @@ body {
     .first_word {
       font-weight: bold;
     }
-
-    p {
-      margin-bottom: 1.6em;
-      line-height: 1.6em;
-      font-weight: 300;
-    }
-  
   }
 }
 
@@ -150,6 +143,28 @@ body {
   li,
   dl {
     font-size: 1em;
+    margin-bottom: 1.6em;
+    line-height: 1.6em;
+    font-weight: 300;
+
+    a {
+      background:
+        linear-gradient(
+        -45deg,
+        $link-color,
+        $link-color
+        ),
+        linear-gradient(
+        -45deg,
+        rgba(3,251,14,1) 13%,
+        rgba(254,1,214,1) 50%,
+        rgba(61,207,254,1) 87%
+        );
+      background-size: 100% 2px, 0 2px;
+      background-position: 100% 100%, 0 100%;
+      background-repeat: no-repeat;
+      transition: background-size 400ms;
+    }
   }
 
   /* paragraph indents */
@@ -166,23 +181,6 @@ body {
   }
 
   a:not(.btn) {
-    background:
-    linear-gradient(
-      -45deg,
-      $link-color,
-      $link-color
-    ),
-    linear-gradient(
-      -45deg,
-      rgba(3,251,14,1) 13%,
-      rgba(254,1,214,1) 50%,
-      rgba(61,207,254,1) 87%
-  );
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-
     &:hover {
       text-decoration: none;
       background-size: 0 3px, 100% 3px;

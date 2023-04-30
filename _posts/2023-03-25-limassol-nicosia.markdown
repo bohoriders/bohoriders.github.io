@@ -1,18 +1,18 @@
 ---
 layout: single
 title:  "Limassol-Nicosia Through the Mountains: Riding as Transcendental Exploration"
-excerpt: "This is yet another excerpt."
+excerpt: "A reflection on the transcendent nature of motorcycling, the symbiosis of body and mind it requires, and the beauty of being present in every moment."
 slug: "limassol-nicosia-through-the-mountains-riding-as-transcendental-exploration"
 header:
   teaser: /assets/images/2023-03-25-limassol-nicosia/2023-03-25-limassol-nicosia-03.webp
-date:   2023-03-14 13:54:23 +0200
+date:   2023-03-25 13:54:23 +0200
 categories: [trips, day trip]
 tags: cyprus
 ---
 <figure class="align-center">
   <a href="/assets/images/2023-03-25-limassol-nicosia/2023-03-25-limassol-nicosia-03.webp" title="A bend in the road somewhere in the Troodos mountains" alt="A bend in the road somewhere in the Troodos mountains.">
   <img src="/assets/images/2023-03-25-limassol-nicosia/2023-03-25-limassol-nicosia-03.webp" alt="A bend in the road somewhere in the Troodos mountains."></a>
-  <figcaption>A bend in the road somewhere in the Troodos mountains.</figcaption>
+  <figcaption>A bend in the road somewhere in the <a href="https://goo.gl/maps/RtPHi2tVzG2kT6d87">Troodos</a> mountains.</figcaption>
 </figure>
 
 <span class="drop_cap">R</span><span class="first_word">iding</span> in Cyprus is not always easy. The winter has been really windy this last two years,and a scorching summer makes your skin melt inside your jacket. This early spring morning wasn't windy and, even if the clouds look utterly filled with rain, we decided to take it as a sign and take a day trip. Being rained on is part of life after all.
@@ -35,7 +35,7 @@ Like in meditation, yoga, or martial arts, riding requires the symbiosis of body
   <figcaption>Limassol and its harbour from a vantage point</figcaption>
 </figure>
 
-At 2,000 meters above sea level we can see the Mediterranean, Limassol, and its harbour. We started from down there and now we are observing it from a vantage point, from a removed perspective that grants clarity. Being able to see where we started is really a testament to how far we have come—and we mean in our journey as a whole. It is like the ancient Greeks thought of time: your past stands in front of you, because you know it and you can see it; while your future stands behind you, because you don't know what's coming. For us, the future is behind the next bend in the road, we take it firmly but without expectations, confiding that the new view will hold exactly what we need.
+At 2,000 meters above sea level we can see the Mediterranean, [Limassol, and its harbour](https://goo.gl/maps/ktJXnyKE5qrW78g2A). We started from down there and now we are observing it from a [vantage point](https://goo.gl/maps/65z8SCrWfms6Qu7X7), from a removed perspective that grants clarity. Being able to see where we started is really a testament to how far we have come—and we mean in our journey as a whole. It is like the ancient Greeks thought of time: your past stands in front of you, because you know it and you can see it; while your future stands behind you, because you don't know what's coming. For us, the future is behind the next bend in the road, we take it firmly but without expectations, confiding that the new view will hold exactly what we need.
 
 A motorcycle is just a tool: two wheels, and engine, and a few other bits of engineering. It hasn't changed much since its inception and maybe there is a good reason for that: it keeps us glued to the road, and yet we don't have to wonder any longer what it feels like to have wings.
 
@@ -49,5 +49,5 @@ A motorcycle is just a tool: two wheels, and engine, and a few other bits of eng
   <a href="/assets/images/2023-03-25-limassol-nicosia/2023-03-25-limassol-nicosia-05.webp" title="Palm tree against the sky in Nicosia" alt="Palm tree against the sky in Nicosia.">
   <img src="/assets/images/2023-03-25-limassol-nicosia/2023-03-25-limassol-nicosia-05.webp" alt="Palm tree against the sky in Nicosia."></a>
 
-  <figcaption>Limassol and its harbour from a vantage point</figcaption>
+  <figcaption>Snapshots on the way to <a href="https://goo.gl/maps/7WNy9ZA2NSHiw7GZ6">Nicosia</a></figcaption>
 </figure>
